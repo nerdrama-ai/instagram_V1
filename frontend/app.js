@@ -1,5 +1,5 @@
 
-const API = "https://YOUR-RENDER-APP.onrender.com";
+const API = "https://instabeat-backend.onrender.com";
 
 let tracks = [];
 let current = 0;
