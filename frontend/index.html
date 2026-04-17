@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <div id="player">
+    <button onclick="prev()">⏮</button>
+    <button onclick="toggle()">⏯</button>
+    <button onclick="next()">⏭</button>
+    <input type="range" id="seek" min="0" max="100" value="0">
+  </div>
+
+  <div id="tracks"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
